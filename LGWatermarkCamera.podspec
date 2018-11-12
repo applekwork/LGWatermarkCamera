@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LGWatermarkCamera'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LGWatermarkCamera.'
+  s.summary          = '水印相机.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+自定义相机,在图片上增加文字水印等.
                        DESC
 
   s.homepage         = 'https://github.com/applekwork@163.com/LGWatermarkCamera'
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LGWatermarkCamera/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LGWatermarkCamera' => ['LGWatermarkCamera/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'LGWatermarkCamera' => ['LGWatermarkCamera/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
